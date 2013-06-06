@@ -2,6 +2,7 @@ package org.watson.mercurial.growl.notifier;
 
 import org.watson.mercurial.growl.notifier.factory.MessageFactory
 import com.google.code.jgntp.*
+import org.watson.mercurial.growl.notifier.factory.PriorityFactory
 
 class IncomingPullNotifier {
     PriorityFactory priorityFactory = new PriorityFactory()

@@ -1,4 +1,4 @@
-package org.watson.mercurial.growl.notifier;
+package org.watson.mercurial.growl.notifier.factory;
 
 import com.google.code.jgntp.GntpNotification
 

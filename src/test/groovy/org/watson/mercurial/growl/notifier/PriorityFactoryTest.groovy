@@ -2,7 +2,8 @@ package org.watson.mercurial.growl.notifier;
 
 import com.google.code.jgntp.GntpNotification
 import org.junit.Before
-import org.junit.Test;
+import org.junit.Test
+import org.watson.mercurial.growl.notifier.factory.PriorityFactory;
 
 class PriorityFactoryTest {
     private PriorityFactory factory
