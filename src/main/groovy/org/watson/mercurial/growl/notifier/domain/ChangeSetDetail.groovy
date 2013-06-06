@@ -1,4 +1,4 @@
-package org.watson.mercurial.growl.notifier;
+package org.watson.mercurial.growl.notifier.domain;
 
 class ChangeSetDetail {
     String summary

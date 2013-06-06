@@ -3,6 +3,7 @@ package org.watson.mercurial.growl.notifier;
 import org.gmock.GMockTestCase
 import org.junit.Before
 import org.junit.Test
+import org.watson.mercurial.growl.notifier.domain.ChangeSetDetail
 
 class IncomingPullJobTest extends GMockTestCase {
     private IncomingPullJob job

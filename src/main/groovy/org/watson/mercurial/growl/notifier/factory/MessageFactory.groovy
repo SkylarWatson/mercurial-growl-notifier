@@ -1,6 +1,6 @@
 package org.watson.mercurial.growl.notifier.factory
 
-import org.watson.mercurial.growl.notifier.ChangeSetDetail
+import org.watson.mercurial.growl.notifier.domain.ChangeSetDetail
 
 class MessageFactory {
     String createFrom(ChangeSetDetail detail) {

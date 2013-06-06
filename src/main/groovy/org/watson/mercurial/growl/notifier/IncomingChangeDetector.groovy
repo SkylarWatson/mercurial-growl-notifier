@@ -1,4 +1,6 @@
-package org.watson.mercurial.growl.notifier;
+package org.watson.mercurial.growl.notifier
+
+import org.watson.mercurial.growl.notifier.domain.ChangeSetDetail;
 
 class IncomingChangeDetector {
     HgAdapter adapter = new HgAdapter()
