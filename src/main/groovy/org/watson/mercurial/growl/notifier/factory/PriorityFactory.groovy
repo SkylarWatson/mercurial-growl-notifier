@@ -4,12 +4,9 @@ import com.google.code.jgntp.GntpNotification
 
 class PriorityFactory {
     GntpNotification.Priority findUsing(int numberOfCommits) {
-        if(numberOfCommits <= 4) {
-            GntpNotification.Priority.NORMAL
-        } else if(numberOfCommits <= 9) {
-            GntpNotification.Priority.HIGH
-        } else if (numberOfCommits >= 10) {
-            GntpNotification.Priority.HIGHEST
-        }
+        [(0..4)    :    GntpNotification.Priority.NORMAL,
+         (5..9)    :    GntpNotification.Priority.HIGH,
+         (10..999) :    GntpNotification.Priority.HIGHEST,
+        ].find {k, v ->  k.contains(numberOfCommits)}.value
     }
 }
